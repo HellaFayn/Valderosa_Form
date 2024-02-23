@@ -11,7 +11,6 @@
   <div class="container">
     <div class="title">Survey Form</div>
     <div class="content">
-
       <form action="#">
         <div class="user-details">
           <div class="input-box">
@@ -19,60 +18,53 @@
             <input type="email" placeholder="Enter your email" required>
           </div>
           <div class="input-box">
-            <span class="details"><br> Questions</span>
-            <p>Did you like the design of the website?</p>
-          </div>
-          <div class="gender-details">
-            <input type="radio" name="gender" id="dot-1">
-            <input type="radio" name="gender" id="dot-2">
-            <input type="radio" name="gender" id="dot-3">
-            <span class="gender-title">Answer</span>
-            <div class="category">
-              <label for="dot-1">
-              <span class="dot one"></span>
-              <span class="gender">Yes</span>
-            </label>
-            <label for="dot-2">
-              <span class="dot two"></span>
-              <span class="gender">No</span>
-            </label>
-          <div class="input-box">
-            <span class="details">Phone Number</span>
-            <input type="tel" placeholder="0912-234-7890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required>
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
           </div>
           <div class="input-box">
-            <span class="details">Password</span>
-            <input type="text" placeholder="Enter your password" required>
+            <span class="details">On a scale of 1 to 10, how visually appealing do you find the website design?</span>
+            <input type="tel" placeholder="1-10" required>
           </div>
           <div class="input-box">
-            <span class="details">Confirm Password</span>
-            <input type="text" placeholder="Confirm your password" required>
+            <span class="details">How would you rate the readability of the font size and style on the website from 1 to 10?</span>
+            <input type="tel" placeholder="1-10" required>
           </div>
-        </div>
-
-        <div class="gender-details">
-          <input type="radio" name="gender" id="dot-1">
-          <input type="radio" name="gender" id="dot-2">
-          <input type="radio" name="gender" id="dot-3">
-          <span class="gender-title">Gender</span>
-          <div class="category">
-            <label for="dot-1">
-            <span class="dot one"></span>
-            <span class="gender">Male</span>
-          </label>
-          <label for="dot-2">
-            <span class="dot two"></span>
-            <span class="gender">Female</span>
-          </label>
-          <label for="dot-3">
-            <span class="dot three"></span>
-            <span class="gender">Prefer not to say</span>
-            </label>
+          <div class="input-box">
+            <span class="details">How satisfied are you with the overall user experience of the website on a scale of 1 to 10?</span>
+            <input type="tel" placeholder="1-10" required>
           </div>
-        </div>
+          <div class="input-box">
+            <span class="details">Would you rate your likelihood to recommend this website to others based on your experience from 1 to 10?</span>
+            <input type="tel" placeholder="1-10" required>
+          </div>
+          <div>
+            <p>
+                Are you satisfied with the website's navigation ease?
+                <div>
+                    <input type="radio" name="satisfied" id="dot-1">
+                    <input type="radio" name="satisfied" id="dot-2">
+                    <input type="radio" name="satisfied" id="dot-3">
+                    <span></span>
+                    <div class="category">
+                      <label for="dot-1">
+                      <span class="dot one"></span>
+                      <span class="satisfied">Yes</span>
+                    </label>
+                    <label for="dot-2">
+                      <span class="dot two"></span>
+                      <span class="useful">No</span>
+                    </label>
+                    <label for="dot-3">
+                      <span class="dot three"></span>
+                      <span class="useful">Somewhat</span>
+                      </label>
+                    </div>
+                  </div>
+            </p>
+          </div>
 
         <div class="button">
-          <input type="submit" value="Signup">
+          <input type="submit" value="Confirm">
         </div>
       </form>
     </div>
